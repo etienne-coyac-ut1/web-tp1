@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Source+Sans+3:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6ed6311320.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>TP1</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="logo-container">
+          <img src="images/logo.png" alt="Logo" />
+          <p>Pas loin, pas cher</p>
+        </div>
+
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <section class="hero-section">
+        <div class="title-container">
+          <h1>Trouvez le voyage qui vous correspond</h1>
+        </div>
+
+        <img
+          class="img-background"
+          src="images/Foix.webp"
+          alt="Chateau de Foix"
+        />
+      </section>
+    </header>
+    <main>
+      <section class="agency-section">
+        <div class="agency-title-container">
+          <h2 class="agency-title">L'agence</h2>
+        </div>
+        <div class="agency-content-container">
+          <p class="agency-content">
+            L'agence Pas Loin Pas Cher propose des offres de voyages locaux et
+            écologiques. Redécouvrez les merveilles de la France grâce à nos
+            voyages sur mesure.<br /><br />
+            Nous avons été récompensé de nos efforts en matière de service et de
+            voyage écologique par le Ministère de la Transition Ecologique.
+          </p>
+        </div>
+      </section>
+      <section class="destinations-section">
+        <div class="destinations-images-container">
+          <div class="destinations-image-container">
+            <img src="images/Ardeches.png" alt="Ardèches" />
+          </div>
+          <div class="destinations-image-container">
+            <img src="images/Canal du midi.png" alt="Canal du midi" />
+          </div>
+          <div class="destinations-image-container">
+            <img src="images/Foix.webp" alt="Foix" />
+          </div>
+          <div class="destinations-image-container">
+            <img src="images/Sarlat.jpeg" alt="Sarlat" />
+          </div>
+        </div>
+        <div class="destinations-title-container">
+          <h2 class="destinations-title">Sélection de destinations</h2>
+          <p class="destinations-sub">
+            En cet automne 2023, nous vous proposons une sélection de visites
+            dans le Sud-Ouest.
+          </p>
+        </div>
+      </section>
+      <section class="team-section">
+        <table>
+          <colgroup>
+            <col span="1" style="width: 50%" />
+            <col span="1" style="width: 50%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th colspan="2" class="team-header">Notre équipe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="category-name margin-bottom">Directeur</td>
+              <td class="margin-bottom">
+                <div class="profile">
+                  <img
+                    class="profile-picture"
+                    src="https://i.pravatar.cc/250"
+                    alt="Photo de profil"
+                  />
+                  <span class="name">Lily Sackville-Baggins</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="separator">
+              <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="category-name margin-bottom">
+                Chargés de communication
+              </td>
+              <td>
+                <div class="profile">
+                  <img
+                    class="profile-picture"
+                    src="https://i.pravatar.cc/251"
+                    alt="Photo de profil"
+                  />
+                  <span class="name">Fredrica Åström </span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="margin-bottom">
+                <div class="profile">
+                  <img
+                    class="profile-picture"
+                    src="https://i.pravatar.cc/252"
+                    alt="Photo de profil"
+                  />
+                  <span class="name">Afaf Maysarah Salib </span>
+                </div>
+              </td>
+            </tr>
+            <tr class="separator">
+              <td colspan="2"></td>
+            </tr>
+
+            <tr>
+              <td rowspan="3" class="category-name">Guides</td>
+              <td>
+                <div class="profile">
+                  <img
+                    class="profile-picture"
+                    src="https://i.pravatar.cc/253"
+                    alt="Photo de profil"
+                  />
+                  <span class="name">Trương Thị Túy Đoan </span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="profile">
+                  <img
+                    class="profile-picture"
+                    src="https://i.pravatar.cc/254"
+                    alt="Photo de profil"
+                  />
+                  <span class="name">Ogier de Launay </span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="profile">
+                  <img
+                    class="profile-picture"
+                    src="https://i.pravatar.cc/255"
+                    alt="Photo de profil"
+                  />
+                  <span class="name">Sota Nakajima (中嶋 颯太) </span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="addresses-section">
+        <div class="carousel">
+          <div class="carousel-overlay">
+            <button
+              type="button"
+              class="carousel-button"
+              disabled="true"
+              data-direction="left"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button
+              type="button"
+              class="carousel-button"
+              data-direction="right"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div id="carousel-items" data-current="0">
+            <div class="carousel-item" data-index="0">
+              <div class="carousel-item-data carousel-item-infos">
+                <h3>Toulouse</h3>
+                <ul>
+                  <li>Du lundi au jeudi, de 11h à 21h</li>
+                  <li>Vendredi et samedi, de 11h à minuit</li>
+                </ul>
+              </div>
+              <div class="carousel-item-data carousel-item-map">
+                <iframe
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=1.4353045439471492%2C43.594643113378226%2C1.4517625784625299%2C43.604914458104375&amp;layer=mapnik"
+                ></iframe>
+              </div>
+            </div>
+            <div class="carousel-item" data-index="1">
+              <div class="carousel-item-data carousel-item-infos">
+                <h3>Bordeaux</h3>
+                <ul>
+                  <li>Du mardi au jeudi, de 9h à 20h</li>
+                  <li>Vendredi et samedi, de 11h à 22h</li>
+                  <li>Dimanche, de 10h à 14h</li>
+                </ul>
+              </div>
+              <div class="carousel-item-data carousel-item-map">
+                <iframe
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=-0.5903335625902174%2C44.830004325656255%2C-0.5574174935594557%2C44.85011876769997&amp;layer=mapnik"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
