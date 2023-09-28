@@ -143,6 +143,9 @@ main {
     padding: 30px 0;
     table {
       width: 100%;
+      colgroup col {
+        width: 50%;
+      }
       .team-header {
         font-family: $title-family;
         font-size: 50px;
@@ -235,6 +238,18 @@ main {
           }
         }
       }
+    }
+  }
+}
+
+footer {
+  background-color: $black;
+  color: white;
+  padding: 15px;
+  .icons {
+    font-size: 40px;
+    i {
+      color: white;
     }
   }
 }

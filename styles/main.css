@@ -141,6 +141,9 @@ main .team-section {
 main .team-section table {
   width: 100%;
 }
+main .team-section table colgroup col {
+  width: 50%;
+}
 main .team-section table .team-header {
   font-family: "Croissant One", cursive;
   font-size: 50px;
@@ -229,6 +232,18 @@ main .addresses-section .carousel .carousel-overlay .carousel-button i {
 main .addresses-section .carousel .carousel-overlay .carousel-button:disabled {
   opacity: 0.5;
   cursor: initial;
+}
+
+footer {
+  background-color: #060606;
+  color: white;
+  padding: 15px;
+}
+footer .icons {
+  font-size: 40px;
+}
+footer .icons i {
+  color: white;
 }
 
 @media (max-width: 768px) {
